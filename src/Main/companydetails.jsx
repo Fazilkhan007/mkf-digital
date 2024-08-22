@@ -53,7 +53,7 @@ export default function CompanyDetails() {
                 sales and then fail to execute, Thrive focuses on client
                 relationships and results. We always deliver substance, not
                 false promises, ensuring we maximize your budget, so you get the
-                most return on investment (ROI).
+                most return on investment.
                 <br></br>
                 Our reviews and testimonials speak volumes. We earn your
                 business every day with month-to-month contracts.
