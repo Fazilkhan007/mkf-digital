@@ -1,0 +1,48 @@
+.container1 {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container2 {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.p1 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+.p2 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding-left: 70px;
+}
+
+.div1,
+.div2 {
+  flex: 1;
+  margin: 10px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div1,
+  .div2 {
+    text-align: center;
+  }
+}
