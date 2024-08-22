@@ -6,6 +6,7 @@ import LocalConvenienceStoreIcon from "@mui/icons-material/LocalConvenienceStore
 import "./navbar.css";
 
 export default function NavBar() {
+  const navbarItems = ["About", "Services", "Results", "Learn", "Contact Us"];
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">

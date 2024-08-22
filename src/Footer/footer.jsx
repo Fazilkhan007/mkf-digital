@@ -2,6 +2,8 @@ import React from "react";
 import "./footer.css";
 
 export default function Footer() {
+  const footerItems = ["Home", "About Us", "Services", "Price"];
+
   return (
     <footer className="footer">
       <h2 className="text-center">Growing businesses since 2005</h2>
@@ -21,7 +23,12 @@ export default function Footer() {
           <div className="footer-section links">
             <h3>Links</h3>
             <ul>
-              <li>
+              {footerItems.map((item) => (
+                <li key={item}>
+                  <a href="/">{item}</a>
+                </li>
+              ))}
+              {/* <li>
                 <a href="/">Home</a>
               </li>
               <li>
@@ -32,7 +39,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/price">Price</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="footer-section contact">
@@ -52,7 +59,7 @@ export default function Footer() {
             Thrive / Terms / Privacy Policy / Scam Alert / Sitemap
           </p>
 
-          <div className="text-center d-flex">
+          <div className="footericons text-center d-flex">
             <div className="ms-3">
               <i class="fa-brands fa-facebook"></i>
             </div>
